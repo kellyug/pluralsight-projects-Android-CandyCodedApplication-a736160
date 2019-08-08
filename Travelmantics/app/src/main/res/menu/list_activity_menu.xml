@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/insertMenu"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="New Travel Deal"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/itemDelete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete_deal"
+        app:showAsAction="ifRoom|withText" />
+
+    <!--<item-->
+        <!--android:id="@+id/logoutMenu"-->
+        <!--android:icon="@android:drawable/ic_logout"-->
+        <!--android:title="@string/logout_menu"-->
+        <!--app:showAsAction="ifRoom|withText" />-->
 
 </menu>
