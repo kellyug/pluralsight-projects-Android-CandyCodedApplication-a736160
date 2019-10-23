@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545462109266",
+    "firebase_url": "https://travelmantics-pro.firebaseio.com",
+    "project_id": "travelmantics-pro",
+    "storage_bucket": "travelmantics-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545462109266:android:258d0eb7d829ce38",
+        "android_client_info": {
+          "package_name": "co.ug.skywayhotel.travelmanticspro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545462109266-0217b80ucccu3dp2nck6ldri8imhsd0p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.ug.skywayhotel.travelmanticspro",
+            "certificate_hash": "1dd702498afb18e9019297ba8278559bf263f28c"
+          }
+        },
+        {
+          "client_id": "545462109266-1jkhnnveejotdv2r1kqcr2khdvq3g2lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiutx9JUZlbIX-2Mgea6QIVSC2TUGgczA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545462109266-1jkhnnveejotdv2r1kqcr2khdvq3g2lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

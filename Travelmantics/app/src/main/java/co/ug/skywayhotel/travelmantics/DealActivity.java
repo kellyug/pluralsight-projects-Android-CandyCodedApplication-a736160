@@ -51,17 +51,17 @@ public class DealActivity extends AppCompatActivity {
                 clean();
                 backToList();
                 return true;
-            case R.id.itemDelete:
+            case R.id.delete_deal:
                 deleteDeal();
                 Toast.makeText(this, "Deal deleted", Toast.LENGTH_LONG).show();
                 backToList();
                 return true;
 
-            case R.id.dealCancel:
-                dealCancel();
-                Toast.makeText(this, "No changes saved", Toast.LENGTH_LONG).show();
-                backToList();
-                return true;
+//            case R.id.dealCancel:
+//                dealCancel();
+//                Toast.makeText(this, "No changes saved", Toast.LENGTH_LONG).show();
+//                backToList();
+//                return true;
 
             default:
                 return super.onOptionsItemSelected(item);
@@ -75,12 +75,12 @@ public class DealActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.save_menu, menu);
         if (FirebaseUtil.isAdmin) {
-            menu.findItem(R.id.itemDelete).setVisible(true);
+            menu.findItem(R.id.delete_menu).setVisible(true);
             menu.findItem(R.id.save_menu).setVisible(true);
             enableEditTexts(true);
         }
         else {
-            menu.findItem(R.id.itemDelete).setVisible(false);
+            menu.findItem(R.id.delete_menu).setVisible(false);
             menu.findItem(R.id.save_menu).setVisible(false);
             enableEditTexts(false);
         }
